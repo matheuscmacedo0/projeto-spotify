@@ -9,6 +9,7 @@ body{
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
 }
 
 /*		BARRA DE NAVEGAÇAO 		*/
@@ -91,8 +92,19 @@ nav.navbar-transparente{
 }
 .albuns{
 	padding: 10px 0px 10px 0px;
-}
 
+}
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);/*Compartibilidade:I9*/
+	-webkit-transform: rotate(30deg);/*Compartibilidade:CHROME, SAFARI, OPERA*/
+	padding-left: 80px
+}
 
 /*		TIPOGRAFIA 		*/
 
@@ -114,6 +126,9 @@ h3{
 	letter-spacing: -0.04em;
 }
 
-#servicos h2,h3{
+#servicos h2,#servicos h3{
 	color:#7c25f8;
+}
+#recursos h3{
+	color:#9bf0e1;
 }
